@@ -1,7 +1,7 @@
 # stationcount
 Time series graphs of currently active stations in the Raspberry Shake network. This graph was created with the help of Malcolm Maclean ([@d3noob](https://twitter.com/d3noob) on Twitter) who originally created it to track the growth of the network.
 
-![Example plot](img/online.png)
+![Example plot](img/unique.png)
 
 Required software:
 - Python 3
