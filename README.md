@@ -13,7 +13,7 @@ Required software:
 Installation via Anaconda:
 ```bash
 # install the environment with the correct software:
-conda create -n stationcount python=3 jupyter matplotlib obspy pandas
+conda create -n stationcount python=3 jupyter matplotlib obspy pandas tqdm
 # activate the environment
 conda activate stationcount
 # start Jupyter Notebook
