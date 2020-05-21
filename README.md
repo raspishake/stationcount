@@ -9,6 +9,7 @@ Required software:
 - Matplotlib
 - Obspy
 - Pandas
+- tqdm
 
 Installation via Anaconda:
 ```bash
