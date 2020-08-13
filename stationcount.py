@@ -81,9 +81,6 @@ def make_plot(data,
         
     plt.legend(loc='upper left')
     fig.savefig('img/%s%s.png' % (fn, desc), bbox_inches='tight')
-    plt.show()
-
-    #return fig, ax
 
 def make_lists():
     '''

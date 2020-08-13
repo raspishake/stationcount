@@ -2,7 +2,7 @@
 <FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.1">
   <Source>SeisComP</Source>
   <Sender>RaspberryShake</Sender>
-  <Created>2020-08-13T15:26:14.551604</Created>
+  <Created>2020-08-13T22:20:40.482346</Created>
   <Network code="AM" startDate="2016-01-01T00:00:00" restrictedStatus="open">
     <Description>RASPBERRY SHAKE NETWORK</Description>
     <Station code="R59E2" startDate="2019-03-11T15:03:31.163" endDate="2019-03-12T17:05:09.685" restrictedStatus="open">
@@ -9293,7 +9293,7 @@
       </Site>
       <CreationDate>2019-06-01T04:00:33.959</CreationDate>
     </Station>
-    <Station code="R9F1B" startDate="2019-05-21T19:34:07.223" restrictedStatus="open">
+    <Station code="R9F1B" startDate="2019-05-21T19:34:07.223" endDate="2020-08-13T17:00:39.959" restrictedStatus="open">
       <Latitude>48.61261261</Latitude>
       <Longitude>2.262119459</Longitude>
       <Elevation>64</Elevation>
@@ -50144,7 +50144,7 @@
       </Site>
       <CreationDate>2020-05-22T19:03:27.77</CreationDate>
     </Station>
-    <Station code="RF9D6" startDate="2020-05-23T06:31:29.751" restrictedStatus="open">
+    <Station code="RF9D6" startDate="2020-05-23T06:31:29.751" endDate="2020-08-13T17:00:47.135" restrictedStatus="open">
       <Latitude>46.00900901</Latitude>
       <Longitude>-112.5537924</Longitude>
       <Elevation>1764</Elevation>
@@ -50252,7 +50252,7 @@
       </Site>
       <CreationDate>2020-05-25T16:02:50.717</CreationDate>
     </Station>
-    <Station code="R7F9F" startDate="2020-05-25T09:24:55.659" restrictedStatus="open">
+    <Station code="R7F9F" startDate="2020-05-25T09:24:55.659" endDate="2020-08-13T17:00:37.117" restrictedStatus="open">
       <Latitude>64.13513514</Latitude>
       <Longitude>-21.87026849</Longitude>
       <Elevation>32</Elevation>
@@ -56930,7 +56930,7 @@
       </Site>
       <CreationDate>2020-08-02T04:16:31.293</CreationDate>
     </Station>
-    <Station code="RB452" startDate="2020-08-02T04:19:50.01" restrictedStatus="open">
+    <Station code="RB452" startDate="2020-08-02T04:19:50.01" endDate="2020-08-13T17:00:45.869" restrictedStatus="open">
       <Latitude>38.75675676</Latitude>
       <Longitude>-121.2028723</Longitude>
       <Elevation>96</Elevation>
@@ -57623,7 +57623,7 @@
       </Site>
       <CreationDate>2020-08-07T19:45:47.889</CreationDate>
     </Station>
-    <Station code="R5791" startDate="2020-08-07T21:42:04.616" restrictedStatus="open">
+    <Station code="R5791" startDate="2020-08-07T21:42:04.616" endDate="2020-08-13T17:00:33.857" restrictedStatus="open">
       <Latitude>40.87387387</Latitude>
       <Longitude>-73.96025745</Longitude>
       <Elevation>58</Elevation>
@@ -57893,7 +57893,7 @@
       </Site>
       <CreationDate>2020-08-12T07:20:07.846</CreationDate>
     </Station>
-    <Station code="RA984" startDate="2020-08-11T03:56:22.582" restrictedStatus="open">
+    <Station code="RA984" startDate="2020-08-11T03:56:22.582" endDate="2020-08-13T17:00:42.751" restrictedStatus="open">
       <Latitude>8.783783784</Latitude>
       <Longitude>-82.43717125</Longitude>
       <Elevation>1177</Elevation>
