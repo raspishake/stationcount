@@ -179,22 +179,6 @@ os.remove(tmp) if os.path.isfile(tmp) else ''
 tmp = wget.download(query, out=tmp)
 
 
-# In[5]:
-
-
-# Read in the file
-with open(tmp, 'r') as file :
-  filedata = file.read()
-
-# Replace the target string
-# necessary temporarily because of a bad latitude value
-filedata = filedata.replace('6413617054', '64.13617054')
-
-# Write the file out again
-with open(tmp, 'w') as file:
-  file.write(filedata)
-
-
 # In[6]:
 
 
@@ -226,8 +210,6 @@ print('Currently active stations: %s' % (active.iloc[-1][0]))
 
 plotstart = UTCDateTime(start)-timedelta(days=30)
 plotend = UTCDateTime.now()
-#ymin = 2050
-#ymax = 2250
 ymax_mult = 1.05
 
 make_plot(data=unique, ymax_mult=ymax_mult, xmin=plotstart,
@@ -239,8 +221,6 @@ make_plot(data=unique, ymax_mult=ymax_mult, xmin=plotstart,
 
 plotstart = UTCDateTime(start)-timedelta(days=30)
 plotend = UTCDateTime.now()
-#ymin = 2050
-#ymax = 2250
 ymax_mult = 1.05
 
 make_plot(data=unique, ymax_mult=ymax_mult, xmin=plotstart,
@@ -252,8 +232,6 @@ make_plot(data=unique, ymax_mult=ymax_mult, xmin=plotstart,
 
 plotstart = UTCDateTime(start)-timedelta(days=30)
 plotend = UTCDateTime.now()
-#ymin = 2050
-#ymax = 2250
 ymax_mult = 1.05
 
 make_plot(data=active, ymax_mult=ymax_mult, xmin=plotstart,
@@ -265,8 +243,6 @@ make_plot(data=active, ymax_mult=ymax_mult, xmin=plotstart,
 
 plotstart = UTCDateTime(start)-timedelta(days=30)
 plotend = UTCDateTime.now()
-#ymin = 2050
-#ymax = 2250
 ymax_mult = 1.05
 
 make_plot(data=active, ymax_mult=ymax_mult, xmin=plotstart,
